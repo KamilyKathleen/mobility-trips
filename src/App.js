@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import ConsultaDados from './components/ConsultaDados';
+import IncluirEvento from './components/IncluirEvento';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/consulta" element={<ConsultaDados />} />
+        <Route path="/inclusao" element={<IncluirEvento />} />
       </Routes>
     </Router>
   );

@@ -19,9 +19,19 @@ function Home() {
           size="large"
           component={Link}
           to="/consulta"
-          sx={{ mt: 3 }}
+          sx={{ m: 3 }}
         >
           Ir para Consulta
+        </Button>
+        <Button
+          variant="contained"
+          color="primary"
+          size="large"
+          component={Link}
+          to="/inclusao"
+          sx={{ m: 3 }}
+        >
+          Ir para Inclusão
         </Button>
       </Box>
     </Container>
